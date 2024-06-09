@@ -1,9 +1,7 @@
-on: workflow_dispatch
 name: Build
-
-on:
+on: workflow_dispatch
   push:
-    tags: [ '**' ]
+    tags: [ 'v1' ]
 
 jobs:
   build:
