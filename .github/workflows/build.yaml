@@ -2,7 +2,7 @@ name: Build
 on:
   workflow_dispatch:
   push:
-    tags: [ 'v1' ]
+    tags: [ '**' ]
 
 jobs:
   build:
